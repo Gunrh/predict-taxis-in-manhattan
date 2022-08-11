@@ -1,0 +1,17 @@
+---the main project goal----
+is to predict the sum of taxi need per zones in manhatten
+
+
+-----Taxi Data----------
+the raw data is about the yellow taxi in all new york (parquet format)
+the data from the URL =xxx
+
+
+----Weather Data--------
+the weather data is  daily data ,because I could not find hourly information for free
+the data from URL = XXX
+
+
+--- taxi zone ID  data -----
+This data is additional information to filter for Manhattan ID only
+the data from URL = https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc
