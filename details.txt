@@ -3,13 +3,13 @@ is to predict the sum of taxi need per zones in manhatten
 
 
 -----Taxi Data----------
-the raw data is about the yellow taxi in all new york (parquet format)
-the data from the URL =xxx
+the raw data is about the yellow taxi in all new york (parquet format) , yearr 2019
+the data from the URL = https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 
 ----Weather Data--------
 the weather data is  daily data ,because I could not find hourly information for free
-the data from URL = XXX
+the data from URL = https://www.weather.gov/wrh/climate?wfo=okx
 
 
 --- taxi zone ID  data -----
