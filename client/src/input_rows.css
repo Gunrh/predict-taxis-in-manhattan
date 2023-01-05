@@ -1,0 +1,64 @@
+.input_rows {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+}
+.input_rows > * {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.react-datepicker__input-container {
+  /* width: 100%; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  min-height: 22px;
+  position: relative;
+  box-sizing: border-box;
+}
+/* input,
+.searchBox {
+  width: 100%;
+} */
+
+.react-datepicker__input-container input {
+  width: 100%;
+  background-color: #121212;
+  border: none;
+  margin-top: 3px;
+  color: white;
+}
+
+.optionListContainer {
+  background-color: #121212;
+}
+
+.leaflet-top {
+  display: none;
+}
+.leaflet-control-attribution {
+  display: none;
+}
+
+.react-datepicker-ignore-onclickoutside {
+  border: none;
+  outline: none;
+}
+.submitButton {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  min-height: 22px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #121212;
+  color: white;
+  font-size: 20px;
+}
+
+.chip {
+  background-color: #ed5f00;
+  font-size: 20px;
+}

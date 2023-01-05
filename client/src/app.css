@@ -1,0 +1,17 @@
+.outer-map-container {
+  height: 100%;
+  width: 100%;
+}
+.outer-map-container > :first-child {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: #121212;
+}
+body {
+  color: white;
+  background-color: #121212;
+}
+
