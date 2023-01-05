@@ -20,7 +20,7 @@ def predict_taxi_per_area():
 
 
 @app.route('/get_zones_names', methods=['GET','POST'])
-def get_zones_names(): #the function return the list of all zone names, and the client need choose the zones -(Magen u need it?)
+def get_zones_names():
     response = jsonify({'locations': util.ListZonesNames()})
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
