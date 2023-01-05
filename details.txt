@@ -1,5 +1,5 @@
 ---the main project goal----
-is to predict the sum of taxi need per zones in manhatten
+is to predict the sum of taxi need per manhatten zones by date ,time,weather features
 
 
 -----Taxi Data----------
@@ -10,6 +10,8 @@ the data from the URL = https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data
 ----Weather Data--------
 the weather data is  daily data ,because I could not find hourly information for free
 the data from URL = https://www.weather.gov/wrh/climate?wfo=okx
+
+for the predict the model get weather data from API https://openweathermap.org/api/one-call-api
 
 
 --- taxi zone ID  data -----
